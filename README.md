@@ -42,12 +42,11 @@ dlsplay: flex; // flexible
 flex-direction: column;
 ```
 
-![flex](flex1.png)
-![flex-derection](flex.png)
+![flex](flex1.png) <br/>
+<img src="flex.png" width="650">
 
-그림 출처 및 설명 더 보기
-https://thrillfighter.tistory.com/489
-https://heropy.blog/2018/11/24/css-flexible-box/
+[그림 출처 및 설명 더 보기](https://thrillfighter.tistory.com/489
+https://heropy.blog/2018/11/24/css-flexible-box/)
 
 <br/>
 ## firebase
@@ -57,10 +56,12 @@ https://firebase.google.com/docs/web/setup
 [current user](https://console.firebase.google.com/u/0/project/anything-55a61/authentication/users)
 
 ### Get the currently signed-in user
+
 https://firebase.google.com/docs/auth/web/manage-users?hl=en
+
 ```javascript
 // The recommended way to get the current user is by setting an observer on the Auth object
-firebase.auth().onAuthStateChanged(function(user) {
+firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
     // User is signed in.
   } else {
@@ -69,5 +70,5 @@ firebase.auth().onAuthStateChanged(function(user) {
 });
 
 // call current user, if there is not, current user is null
-var user = firebase.auth().currentUser; 
+var user = firebase.auth().currentUser;
 ```
