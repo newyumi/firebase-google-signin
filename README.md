@@ -72,3 +72,27 @@ firebase.auth().onAuthStateChanged(function (user) {
 // call current user, if there is not, current user is null
 var user = firebase.auth().currentUser;
 ```
+
+### QueryReference and QuerySnapshot
+
+query is a request from firestore <- datebase
+
+firestore returns two types of objects:
+references and snapshots: either Document or Collection versions
+
+`firestore always return these objects, even if nothing exists`
+
+QueryReference
+firestore.doc('/users/:userId')
+firestore.collections('/users')
+
+### DecumentReference vs CollectionReference
+
+documentRef objects to perform CRUD methods
+.set(), .get(), .update(), .delete()
+
+collectionRef object .add() method
+collectionRef.add({ value: prop })
+
+documentRef returns a documentSnapshot object.
+collectionRef returns a querySnapshot object.
