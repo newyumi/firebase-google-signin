@@ -85,6 +85,8 @@ references and snapshots: either Document or Collection versions
 
 `firestore always return these objects, even if nothing exists`
 
+(!snapShot.exists) 이걸로 있는지 없는지 확인
+
 QueryReference
 firestore.doc('/users/:userId')
 firestore.collections('/users')
