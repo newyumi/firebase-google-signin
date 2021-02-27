@@ -91,7 +91,7 @@ firestore.collections('/users')
 
 <br/>
 
-### DecumentReference vs CollectionReference
+### DocumentReference vs CollectionReference
 
 documentRef objects to perform CRUD methods
 .set(), .get(), .update(), .delete()
