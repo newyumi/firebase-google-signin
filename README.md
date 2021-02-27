@@ -45,11 +45,12 @@ flex-direction: column;
 ![flex](flex1.png) <br/>
 <img src="flex.png" width="650">
 
-[그림 출처 및 설명 더 보기](https://thrillfighter.tistory.com/489
-https://heropy.blog/2018/11/24/css-flexible-box/)
+[그림 출처 및 설명 더 보기-flex](https://thrillfighter.tistory.com/489) <br/>
+[그림 출처 및 설명 더 보기-derection](https://heropy.blog/2018/11/24/css-flexible-box/)
 
 <br/>
-## firebase
+
+### firebase
 
 https://firebase.google.com/docs/web/setup
 [google login](https://firebase.google.com/docs/auth/web/google-signin)
